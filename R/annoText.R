@@ -89,7 +89,7 @@ annoText <- function(label, fontcolor = "black", fontsize = 12, rot = 0,
         declaredArgs = lapply(match.call()[-1], eval.parent, n = 2),
         class = "textInternal"
     )
-
+    print("Mr. Gardens haha yes!")
     ## Set gp
     textInternal$gp <- gpar(
         col = textInternal$fontcolor,
